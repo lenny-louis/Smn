@@ -1,0 +1,136 @@
+body {
+  background-image:url(./test/https___edm.com_.image_MTc0NjYyNjI0ODg4MjM1Mzg2_science-of-earworms-explain-why-never-gonna-give-you-up-is-stuck-in-our-heads-30-years-later.gif);
+}
+.all{
+	 color: #FF69B4;
+}
+.app{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.regle{
+    position: fixed;
+    top: 700px;
+    left: 200px;
+	background-color: #FFF5EE;
+}
+.lent{
+    position: fixed;
+    top: 760px;
+    left: 200px;
+}
+.moyen{
+    position: fixed;
+    top: 790px;
+    left: 200px;
+}
+.rapide{
+    position: fixed;
+    top: 820px;
+    left: 200px;
+}
+
+.score{
+    position: fixed;
+    top: 500px;
+    left: 200px;
+	background-color: #FFF5EE;
+}
+.cercle{
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50px;
+}
+.partienuméro1{
+    position: fixed;
+    top: 130px;
+    left: 480px;
+	width:400px;
+	height:200px;
+	border-top-left-radius : 150px 100px;
+    background-color: #00008B;
+}
+.partienuméro2{
+    position: fixed;
+    top: 130px;
+    right: 480px;
+    border-top-right-radius: 150px 100px;
+	width:400px;
+	height:200px;
+    background-color: #8B0000;
+}
+.partienuméro3{
+    position: fixed;
+    bottom: 120px;
+    left: 480px;
+    border-bottom-left-radius: 150px 100px;
+	width:400px;
+	height:200px;
+    background-color: #006400;
+}
+.partienuméro4{
+    position: fixed;
+    bottom: 120px;
+    right : 480px;
+    border-bottom-right-radius: 150px 100px;
+	width:400px;
+	height:200px;
+    background-color:#F0E68C;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
